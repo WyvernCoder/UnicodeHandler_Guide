@@ -21,26 +21,26 @@ Stru_CharacterTable 是一个C++ Struct，它由两个String类型的变量构�
 ![DataTableInCSV](Resource/Sample_DataTable_CSV.png)  
 ![DataTableInEditor](Resource/Sample_DataTable.png)  
 
-# HOW TO MAKE A SUITABLE DataTable
-1.我们需要一个txt格式的字符对照表，这个表应该是这个样子，它有Unicode代码和代码对应的字符。  
+## HOW TO MAKE A SUITABLE DataTable
+# 1.我们需要一个txt格式的字符对照表，这个表应该是这个样子，它有Unicode代码和代码对应的字符。  
 ![NativeTXT](Resource/NativeTXT.png)  
 
-2.通常情况下，一个Unicode编码表拥有很多种语言，我们只需要截取我们需要的部分即可。如图所示，基础Chinese Character的范围是 \u4E00~、u9FA5。（插件中ChineseCharacterTable的范围：\u4E00~\u9FA5，包括常用标点符号）  
+# 2.通常情况下，一个Unicode编码表拥有很多种语言，我们只需要截取我们需要的部分即可。如图所示，基础Chinese Character的范围是 \u4E00~、u9FA5。（插件中ChineseCharacterTable的范围：\u4E00~\u9FA5，包括常用标点符号）  
 ![Warn](Resource/Warn.png) __The data in the picture is Chinese Character__ ![Warn](Resource/Warn.png)  
 ![HandleTXT](Resource/HandleTXT.png)  
 
-3.使用Excel或其他软件将原生TXT格式的字符对照表处理成下图所示。  
+# 3.使用Excel或其他软件将原生TXT格式的字符对照表处理成下图所示。  
 ![HandleCSV](Resource/HandleCSV.png)  
 
-4.导出CSV格式。（The software in the picture is Microsoft Excel）  
+# 4.导出CSV格式。（The software in the picture is Microsoft Excel）  
 ![ExportCSV](Resource/ExportCSV.png)  
 
-5.使用 Notepad++ 或 Windows Notepad 将它从ANSI格式转换为UTF-8格式。（如果不这样做，它会在Editor中乱码）  
+# 5.使用 Notepad++ 或 Windows Notepad 将它从ANSI格式转换为UTF-8格式。（如果不这样做，它会在Editor中乱码）  
 ![HandleWithWNPD](Resource/HandleWithWNPD.png)  
 ![HandleWithNPD](Resource/HandleWithNPD.png)  
 
-6.将其导入至Editor并选择Stru_CharacterTable格式。  
+# 6.将其导入至Editor并选择Stru_CharacterTable格式。  
 ![ImportToUE](Resource/ImportToUE.png)  
 
-7.然后你就可以使用你的新表了。  
+# 7.然后你就可以使用你的新表了。  
 ![UseNewTable](Resource/UseNewTable.png)  
