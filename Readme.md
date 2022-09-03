@@ -2,8 +2,8 @@
 只有两个蓝图节点：“UnicodeToCharacter”和“CharacterToUnicode”。
 它们有相同的参数，分别是Stru_CharacterTable类型的DataTable和String。
 它们有相同的输出，只有一个String类型的ReturnValue。
-![UTC](UnicodeToCharacter.png)
-![CTU](CharacterToUnicode.png)
+![UTC](Resource\UnicodeToCharacter.png)
+![CTU](Resource\CharacterToUnicode.png)
 
 你所要做的就是把一串unicode或是一串特殊的character输入进正确的节点中，它就会返回DataTable表中所对应的数据。插件中包含一张完整可用的ChineseCharacter数据表。
 如果你的输入值有问题，它会将错误汇报在Log中并返回String "NULL"。
