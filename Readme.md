@@ -1,4 +1,4 @@
-#HOW TO USE
+# HOW TO USE
 只有两个蓝图节点：“UnicodeToCharacter”和“CharacterToUnicode”。
 它们有相同的参数，分别是Stru_CharacterTable类型的DataTable和String。
 它们有相同的输出，只有一个String类型的ReturnValue。
@@ -9,19 +9,19 @@
 如果你的输入值有问题，它会将错误汇报在Log中并返回String "NULL"。
 ![Sample01](Resource/Sample01.png)
 
-##我想要知道 Stru_CharacterTable 的结构
+## 我想要知道 Stru_CharacterTable 的结构
 Stru_CharacterTable 是一个C++ Struct，它由两个String类型的变量构成，它们的名称分别是“Unicode”和“Character”。
 ![Warn](Resource/Warn.png)C++ Struct 没办法在蓝图中Break![Warn](Resource/Warn.png)
 ![Sample02](Resource/Sample_Stru.png)
 
-##我需要一个 DataTable 例子
+## 我需要一个 DataTable 例子
 插件中的Content文件夹内有一个已经制作好的Chinese Character DataTable，你可以直接使用它，或是在这里下载源文件：[Chinese Character Table UTF-8](Resource/ChineseCharacterTable_UTF8.csv) [Chinese Character Table ANSI](Resource/ChineseCharacterTable_ANSI.csv)。
 另外一提，这个csv文件是UTF-8格式的，但 Microsoft Excel 365 似乎无法正确阅读UTF-8格式的csv文件，你可以使用 Notepad++ 将其正常打开。
 ![Warn](Resource/Warn.png)你需要将你的csv文件转换为UTF-8格式才能在Editor中使用，否则它将会乱码。![Warn](Resource/Warn.png)
 ![DataTableInCSV](Resource/Sample_DataTable_CSV.png)
 ![DataTableInEditor](Resource/Sample_DataTable.png)
 
-#HOW TO MAKE A SUITABLE DataTable
+# HOW TO MAKE A SUITABLE DataTable
 1.我们需要一个txt格式的字符对照表，这个表应该是这个样子，它有Unicode代码和代码对应的字符。
 ![NativeTXT](Resource/NativeTXT.png)
 
