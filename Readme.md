@@ -5,12 +5,12 @@
 ![UTC](Resource/UnicodeToCharacter.png)
 ![CTU](Resource/CharacterToUnicode.png)
 
-你所要做的就是把一串unicode或是一串特殊的character输入进正确的节点中，它就会返回DataTable表中所对应的数据。插件中包含一张完整可用的ChineseCharacter数据表。
-如果你的输入值有问题，它会将错误汇报在Log中并返回String "NULL"。
+你所要做的就是把一串unicode或是一串特殊的character输入进正确的节点中，它就会返回DataTable表中所对应的数据。如果你的输入值有问题，它会将错误汇报在Log中并返回String "NULL"。
+插件中包含一张完整可用的ChineseCharacter数据表。
 ![Sample01](Resource/Sample01.png)
 
 ## 我想要知道 Stru_CharacterTable 的结构
-Stru_CharacterTable 是一个C++ Struct，它由两个String类型的变量构成，它们的名称分别是“Unicode”和“Character”。
+Stru_CharacterTable 是一个C++ Struct，它由两个String类型的变量构成，它们的名称分别是“Unicode”和“Character”。 
 ![Warn](Resource/Warn.png)C++ Struct 没办法在蓝图中Break![Warn](Resource/Warn.png)
 ![Sample02](Resource/Sample_Stru.png)
 
