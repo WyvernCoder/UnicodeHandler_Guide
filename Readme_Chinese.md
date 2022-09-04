@@ -7,6 +7,7 @@ SELECT LANGUAGE: [English](Readme.md), 简体中文
 它们有相同的输出，只有一个String类型的ReturnValue。  
 ![UTC](Resource/UnicodeToCharacter.png)  
 ![CTU](Resource/CharacterToUnicode.png)  
+<img src="Resource/CharacterToUnicode.png" width="100px">
   
 你所要做的就是把一串unicode或是一串特殊的character输入进正确的节点中，它就会返回DataTable表中所对应的数据。如果你的输入值有问题，它会将错误汇报在Log中并返回String "NULL"。  
 __插件中包含一张完整可用的ChineseCharacter数据表。  __
