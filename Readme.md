@@ -1,3 +1,6 @@
+SELECT LANGUAGE: English, [简体中文](Readme_Chinese.md)
+  
+  
 # HOW TO USE
 There are only two blueprint nodes "UnicodeToCharacter" and "CharacterToUnicode".  
 They have the same parameters, a DataTable of Stru_CharacterTable structure and a String.

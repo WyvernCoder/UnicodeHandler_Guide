@@ -1,3 +1,6 @@
+SELECT LANGUAGE: [English](Readme.md), 简体中文
+  
+  
 # 使用方法
 只有两个蓝图节点：“UnicodeToCharacter”和“CharacterToUnicode”。  
 它们有相同的参数，分别是Stru_CharacterTable类型的DataTable数据表和String。  
