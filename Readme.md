@@ -61,3 +61,10 @@ it will be garbled in the editor if you dont do this
   
 ## 7.Then you can use your new table.  
 <img src="Resource/UseNewTable.png" width="512px">  
+
+
+# KNOWN PROBLEMS SUPPORT
+.  
+Q: When using C++, it cannot be compiled and report "error C2001: newline in constant".  
+A: Switch the encoding of your CPP or H file to UTF-8 format.  
+![SwitchEncode](Resource/SwitchEncode.png)
