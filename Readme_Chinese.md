@@ -1,4 +1,5 @@
-SELECT LANGUAGE: [English](Readme.md), 简体中文
+SELECT LANGUAGE: [English](Readme.md), 简体中文  
+[前往下载页面](https://github.com/WyvernCoder/UnicodeHandler)  
   
   
 # 使用方法
