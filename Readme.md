@@ -1,4 +1,5 @@
 SELECT LANGUAGE: English, [简体中文](Readme_Chinese.md)
+[GO TO DOWNLOAD PAGE](https://github.com/WyvernCoder/UnicodeHandler)  
   
   
 # HOW TO USE
